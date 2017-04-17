@@ -3,8 +3,18 @@ var React = require('react');
 var About = (props) => {
   return (
     <div>
-      <h3>About component</h3>
+      <h1 className="text-center">About component</h1>
       <p> Welcome </p>
+      <p> tools: </p>
+      <ul>
+        <li>
+          <a href="https://facebook.github.io/react">React</a>
+          Javascript framwork
+        </li>
+        <li>
+          <a href="https://openweathermap.org">OpenWeatherMap</a>
+        </li>
+      </ul>
     </div>
 
   )
