@@ -15,7 +15,7 @@ module.exports = {
         return res.data.main.temp;
       }
     }, function (res) {
-      throw new Error(res.message);
+      throw new Error('Unable find the location');
     })
   }
 }
